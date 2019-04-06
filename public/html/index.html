@@ -1,0 +1,54 @@
+<head>
+	<title>TF2 Queue Bot</title>
+
+	<link rel="stylesheet" href="styles.css">
+	<script src="index.js"></script>
+</head>
+
+<body>
+	<div class="consoleLog">
+		<table class="configTable">
+			<tr>
+				<td>Using Config: <b><span id="curConfig"></span></b></td>
+			</tr>
+			<tr>
+				<td><button id="queueButton">Start Queue</button></td>
+			</tr>
+		</table>
+
+		<table class="outputTable" id="outputFiller">
+			<tr>
+				<th>Console Output</th>
+			</tr>
+		</table>
+	</div>
+
+	<div class="datacenterConfig">
+		<b>Datacenter Ping Configuration</b>
+
+		<table>
+			<tr>
+				<td>
+					<select id="configDropdown">
+					</select>
+				</td>
+				<td>
+					<button id="newConfig">New</button>
+				</td>
+				<td>
+					<button id="deleteConfig">Delete</button>
+				</td>
+				<td>
+					<button id="saveConfig">Save</button>
+				</td>
+			</tr>
+		</table>
+
+		<table id="datacenterFiller">
+			<tr>
+				<th>Datacenter</th>
+				<th>Ping</th>
+			</tr>
+		</table>
+	</div>
+</body>

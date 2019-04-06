@@ -1,0 +1,21 @@
+{
+  "name": "tf2-auto-queue",
+  "version": "1.0.0",
+  "description": "Automatically queue for a Casual match in Team Fortress 2",
+  "main": "index.js",
+  "author": "github.com/BeepFelix",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeepFelix/tf2-auto-queue-bot.git"
+  },
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "bytebuffer": "^5.0.1",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "protobufjs": "github:dcodeIO/protobuf.js#ProtoBuf4",
+    "request": "^2.88.0",
+    "steam-user": "^4.4.2",
+    "steamid": "^1.1.0"
+  }
+}

@@ -1,0 +1,6 @@
+src/test
+config.json
+.vscode
+config/datagram/*
+!config/datagram/default.txt
+node_modules

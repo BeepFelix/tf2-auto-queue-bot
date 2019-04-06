@@ -1,0 +1,35 @@
+.consoleLog {
+	position: absolute;
+	left: 25%;
+}
+
+.datacenterConfig {
+	position: absolute;
+	left: 75%;
+}
+
+.configTable {
+	border: 1px;
+	border-style: solid;
+}
+
+.outputTable,
+.configTable {
+	text-align: center;
+}
+
+.outputTable tr th,
+.datacenterConfig tr th {
+	border: 1px;
+	border-style: solid;
+}
+
+.outputTable tr td,
+.datacenterConfig tr td {
+	border: 1px;
+	border-style: solid;
+}
+
+.datacenterConfig tr td {
+	text-align: center;
+}
